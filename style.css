@@ -1,0 +1,338 @@
+/* AUTHOR: HARMANPREET DEO*/
+body{
+  /* body of index.html or homepage */
+  margin: 0;
+  padding: 0;
+  background-color: #45046a;
+  color: white;
+}
+
+.form-page{
+  /* body of the contact.html */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background-color: #45046a;
+}
+
+.button{
+  /* contact me hyperlink on index.html */
+  color: #45046a;
+  border-radius: 4px;
+  border-style: none;
+  background-color:white;
+  letter-spacing: 0.214em;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.button:hover{
+  /* change in appearance of the contact me link */
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  border-width: thin;
+}
+
+.header{
+  /* the division for the page heading of index.html */
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 200px;
+}
+
+.header1{
+  /* the division for the page heading of contact.html */
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 55px;
+}
+
+.header-h1{
+  /* the h1 heading in the header division
+  both contact.html and index.html */
+  line-height: 0;
+  letter-spacing: 0.214em;
+}
+.header-h3{
+  /* the h3 heading in the header division
+  both contact.html and header.html */
+  line-height: 0.8;
+  letter-spacing: 0.214em;
+}
+.header-hr{
+  /* the horizontal line in the header division */
+  width: 30%;
+  line-height: 0;
+  margin-bottom: 20px;
+}
+
+.header1-hr{
+  /* the horizontaal line in the header1 divsion */
+  width: 40%;
+  line-height: 0;
+  border-color: white;
+}
+
+.paratitle{
+  /* the title of a content section along with the horizontal line
+  both index.html and contact.html*/
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+#paratitle{
+  /* separate paratitle for technical skills section in index.html
+  change in margin */
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.title-h2{
+  /* class for h2 heading in all the content titles*/
+  line-height: 0;
+  letter-spacing: 0.214em;
+}
+
+.contentbox{
+  /* the actual information box in index.html sections*/
+  position:relative;
+  height: 350;
+}
+
+.pic{
+  /* class for the division holding the image in the carrer objective section */
+  margin-left: 20%;
+  width: 350px;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.pic img{
+  /* class for the actual image in the carrer objective section */
+  height: 350px;
+  width: 350px;
+}
+
+.textbox{
+  /* class for the division containing the text paragraph in career objective section */
+  margin-right: 20%;
+  display: inline-block;
+  height: 350px;
+  margin-left: 20px;
+  width: 750px;
+  vertical-align: top;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.wutihave{
+  /* main division with flex display for containing visual information in form of pictures
+  index.html */
+  margin-left: 20%;
+  margin-right:20%;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.box{
+  /* subdivision of wutihave having indivdual visual link or information*/
+  padding: 20px;
+  position: relative;
+}
+
+.campus{
+  /* the class for the images shown in the education section in index.html */
+  height: 408px;
+  width: 320px;
+  border: 3px solid black;
+}
+
+.image_overlay{
+  /* change in appearance of the images along with the texts contained but not displayed*/
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+  height: 413px;
+  width: 326px;
+  background: rgba(0 , 0, 0, 0.4);
+  opacity: 0;
+}
+
+.image_overlay:hover{
+  /* change in appearance of the images along with the texts displayed but changed opacity
+  actually displays the text*/
+  opacity: 1;
+}
+
+.image_title{
+  /* image title with hyperlink to the university in education section*/
+  margin-top: 50%;
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+}
+
+.image_descripton{
+  /*properties of the text year of education in hover */
+  margin-top: 5%;
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+}
+
+.wutineed{
+  /* subdivision of the wutihave division in the certification section
+  has actual flex display*/
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.box2{
+  /* three subdivisions of the subdivision wutineed
+  has the actual information containing logos of certification */
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: grey;
+}
+
+#box2{
+  /* separate id for the middle box because the logo size needs to be changed separately
+  certification section*/
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.png{
+  /* class of the division containg the logo pictutre, link and text in certification section */
+  height: 150px;
+  width: 150px;
+}
+
+.skillgrid{
+  /* the main division for the content in the technical skills section*/
+  background-color: #6a197d;
+  padding: 20px;
+  border-radius: 4px;
+  border-style: groove;
+  border-color: white;
+  border-width: thin;
+  margin-bottom: 50px;
+}
+
+.skills{
+  /* subdivision of division skillset containing unordered lists in the technical skills section*/
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+#seperate{
+  /* a special horixontal divider between two sections without the margin
+  between skillset and experience */
+  width: 60%;
+  text-align: center;
+}
+
+.table{
+  /* division containing the table with class skillgrid
+  in professional experience section */
+  margin-left: 22%;
+  margin-right: 22%;
+  line-height: 40px;
+  font-size: 20px;
+  align-content: center;
+}
+
+
+.tr td{
+  /* chnages the border of the table cell in a table row */
+  border-bottom: 1px solid grey;
+}
+
+.field{
+  /* class for the fields like name email and text etc. and their properties in contact.html*/
+  width: 80%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form{
+  /* class for the main division containing the whole form in contact.html */
+  margin-left: 32%;
+  margin-right: 32%;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+form .submit{
+  /* the ssend message button in the form tag in contact.html*/
+  background: #c3aed6;
+  border-color: transparent;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.214em;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover{
+  /* change in the appearance of the send message button */
+  background-color: #8675a9;
+  cursor: pointer;
+}
+
+.links{
+  /* the main division for the profile page and home linls, indeed and linkedin*/
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 25px;
+}
+
+.linkbox{
+  /* class for the three boxes containing the actual hyperlink images to the different profiles*/
+  flex: 1;
+  text-align: center;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  margin: 15px;
+  padding-top: 25px;
+}
+
+.profileimg{
+  /* class for the images or logos used in the hyperlinks on contact.html*/
+  height: 150px;
+  width: 150px;
+}
